@@ -1,0 +1,1 @@
+hello this is the third text file written using writeFileSync()
