@@ -1,0 +1,92 @@
+body{
+    background: url(homebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.mid{
+    display: block;
+    width: 45%;
+    margin: 18px auto;
+    /* border: 2px solid darkblue; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;            
+    /* border: 2px solid green; */
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 35px 30px;
+}
+.navbar li a:hover{
+    color: rgb(168, 160, 160);
+    text-decoration: underline;
+}
+.left img{
+    width: 122px;
+    filter: invert(100%);
+}
+.left{
+    text-align: center;
+}
+.btn{
+    margin: 0px 9px;
+    padding: 3px 4px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;       
+}
+.btn:hover{
+    background-color: rgb(34, 33, 33);
+}
+.container{
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 144px 183px;
+    padding: 45px;
+    display: block;
+    width: 33%;
+}
+.form-group input{
+    text-align: left;
+    margin: 8px;
+    height: 22px;
+    font-family: 'Mukta', sans-serif;  
+    border-radius: 7px;
+    display: block;
+    padding: 6px;
+    font-size: 24px;
+
+}
+.container h1{
+    text-align: left;
+}
+.container button{
+    display: block;
+    width: 276px;
+    height: 28px;
+    font-family: 'Mukta', sans-serif;          
+}
